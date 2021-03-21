@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: monospace, sans-serif;
+  font-size: normal;
+}
+table{
+    border:2px solid black; 
+    width:30%;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.9);
+        
+      
+      }
+    body{
+        background: linear-gradient(to right, rgb(97, 33, 122), #b885f1);
+    }
+    .title{
+        text-align: center;
+    }
+    td{
+    padding:12px;
+    height:100%;
+    color:white;
+    }
+    input{
+    width:100%;
+    height:200%;
+    background-color:white;
+    font-size: 3rem;
+    }
+    button{
+        padding:12;
+    
+        width:100%;
+        height:300%;
+        font-size: 3rem;
+
+    }
+    button:hover{
+    color: #7e0058;
+    font-weight:bold;
+    }
